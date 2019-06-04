@@ -21,7 +21,7 @@ public class StartingxD : MonoBehaviour
         PlayerPrefs.SetInt("Colecionable_10", 1);
         */
         
-        /*
+        
         PlayerPrefs.SetInt("Colecionable_1", 0);
         PlayerPrefs.SetInt("Colecionable_2", 0);
         PlayerPrefs.SetInt("Colecionable_3", 0);
@@ -32,6 +32,6 @@ public class StartingxD : MonoBehaviour
         PlayerPrefs.SetInt("Colecionable_8", 0);
         PlayerPrefs.SetInt("Colecionable_9", 0);
         PlayerPrefs.SetInt("Colecionable_10", 0);
-        */
+        
     }
 }
