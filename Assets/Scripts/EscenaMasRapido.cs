@@ -11,14 +11,14 @@ public class EscenaMasRapido : MonoBehaviour
 
     void Start()
     {
-        NumeroRandom = Random.Range(1, 11);
+        NumeroRandom = Random.Range(1, 10);
     }
 
     void Update()
     {
         TiempoDeEspera -= Time.deltaTime * 1;
 
-        NumeroRandom = Random.Range(1, 9);
+        NumeroRandom = Random.Range(1, 10);
 
         if (TiempoDeEspera < 0)
         {
@@ -40,16 +40,16 @@ public class EscenaMasRapido : MonoBehaviour
                     SceneManager.LoadScene("GP_5(Uribe)");
                     break;
                 case 6:
-                    SceneManager.LoadScene("GP_6(Coca)");
-                    break;
-                case 7:
                     SceneManager.LoadScene("GP_7(Esmeralda)");
                     break;
-                case 8:
+                case 7:
                     SceneManager.LoadScene("GP_8(Saiyans)");
                     break;
-                case 9:
+                case 8:
                     SceneManager.LoadScene("GP_9(Bronx)");
+                    break;
+                case 9:
+                    SceneManager.LoadScene("GP_10(Titere)");
                     break;
                 case 10:
                     SceneManager.LoadScene("GP_10(Titere)");

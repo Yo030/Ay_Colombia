@@ -10,7 +10,7 @@ public class PorximaEscena : MonoBehaviour
 
     public void NextScean()
     {
-        NumeroRandom = Random.Range(1, 11);
+        NumeroRandom = Random.Range(1, 10);
         if (Vida._vida <= 0)
         {
             SceneManager.LoadScene("Sc_MainMenu");
@@ -46,7 +46,7 @@ public class PorximaEscena : MonoBehaviour
                         SceneManager.LoadScene("GP_5(Uribe)");
                         break;
                     case 6:
-                        SceneManager.LoadScene("GP_6(Coca)");
+                        SceneManager.LoadScene("GP_10(Titere)");
                         break;
                     case 7:
                         SceneManager.LoadScene("GP_7(Esmeralda)");

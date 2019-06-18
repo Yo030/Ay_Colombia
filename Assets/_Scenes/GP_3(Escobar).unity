@@ -364,7 +364,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Dispara a pablo
+  m_Text: Dispara al narco
 --- !u!222 &121934403
 CanvasRenderer:
   m_ObjectHideFlags: 0
